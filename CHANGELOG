@@ -1,0 +1,36 @@
+v1.4.0
+======
+release: 17 Apr 2017
+
+Reimplemented the whole parser.
+Added more tests.
+Improved performance.
+
+v1.3.0
+======
+release: 23 Sep 2016
+
+Fixed special characters escaping.
+Improved unicode handling.
+
+v1.2
+====
+release: 13 Oct 2016
+
+Introduced maps as Erlang structure to store JSON object properties.
+
+v1.1
+====
+release: 13 Oct 2016
+
+Minor bug fixes.
+
+v1.0
+====
+release: 06 Oct 2016
+
+Initial version.
+
+v0.5
+====
+pre-release: 28 Dec 2015
