@@ -100,6 +100,7 @@ run_parser_positive_tests() ->
   {ok, #{<<"s">> := <<"\t">>}} = jerlson:load(<<"{\"s\": ", $", $\\, $t, $", "}">>),
   {ok, #{<<"1">> := false, <<"2">> := true, <<"3">> := null}} = jerlson:load(<<"{\"1\":false,\"2\":true,\"3\":null}">>),
   {ok, #{<<"a">> := 10, <<"b">> := 123.456}} = jerlson:load(<<"{\"a\":10,\"b\":123.456}">>),
+  {ok, #{<<"a">> := 10, <<"b">> := 123.456}} = jerlson:load("{\"a\":10,\"b\":123.456}"),
   {ok, [true]} = jerlson:load("[true]"),
   {ok, [true]} = jerlson:load(<<"[true]">>),
   {ok, [false]} = jerlson:load(<<"[false]">>),
